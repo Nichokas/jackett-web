@@ -1,0 +1,3 @@
+upload: s3cmd put main.go s3://jackett-web/
+
+jackett: http://[::]:9117
